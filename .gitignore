@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.astro/
+
+# logs
+*.log
+npm-debug.log*
+
+# env
+.env
+.env.*
+!.env.example
+
+# local tracking files
+worklog.md
+
+# local ai agent context / settings — not for the public repo
+CLAUDE.md
+.claude/
+
+# macos finder metadata
+.DS_Store
+**/.DS_Store
